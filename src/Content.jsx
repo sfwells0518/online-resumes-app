@@ -7,11 +7,11 @@ export function Content() {
     <div>
       <ResumesIndex />
       {/* <ResumesShow /> */}
-      {/* <Routes>
+      <Routes>
         <Route path="/index" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/show" element={<Show />} />
-      </Routes> */}
+      </Routes>
     </div>
   );
 }

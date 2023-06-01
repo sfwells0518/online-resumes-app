@@ -1,4 +1,4 @@
-
+import {LogoutLink} from "./LogoutLink.jsx"
 
 export function Header() {
  
@@ -21,9 +21,7 @@ export function Header() {
   } else {
     authenticationLinks = (
       <li>
-        <a className="dropdown-item" href="/logout">
-          Log Out
-        </a>
+        <LogoutLink/>
       </li>
     );
   }

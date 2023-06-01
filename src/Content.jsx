@@ -6,11 +6,11 @@ export function Content() {
     <div>
       <h1>Welcome to React!</h1>
       <ResumesIndex />
-      <Routes>
+      {/* <Routes>
         <Route path="/index" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/show" element={<Show />} />
-      </Routes>
+      </Routes> */}
     </div>
   );
 }

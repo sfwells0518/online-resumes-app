@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { ResumesIndex } from "./ResumesIndex";
-import { ResumesShow } from "./ResumesShow";
+import { ResumesShow }  from "./ResumesShow";
 import { Login } from "./Login.jsx"
 import { Signup } from "./Signup.jsx"
 import {LogoutLink} from "./LogoutLink.jsx"
@@ -8,7 +8,6 @@ import {LogoutLink} from "./LogoutLink.jsx"
 export function Content() {
   return (
     <div>
-      <h1>Welcome to React!</h1>
       <ResumesIndex />
       <ResumesShow />
       <Routes>

@@ -1,16 +1,16 @@
 import { Routes, Route } from "react-router-dom";
-import { Index } from "./Index";
-import { ResumesShow } from "./ResumesShow";
+import { ResumesIndex } from "./ResumesIndex";
 
 export function Content() {
   return (
     <div>
       <h1>Welcome to React!</h1>
-      <Routes>
+      <ResumesIndex />
+      {/* <Routes>
         <Route path="/index" element={<Home />} />
         <Route path="/" element={<Home />} />
-        <Route path="/show" element={<Donate />} />
-      </Routes>
+        <Route path="/show" element={<Show />} />
+      </Routes> */}
     </div>
   );
 }

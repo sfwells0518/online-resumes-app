@@ -6,13 +6,10 @@ export function ResumesIndex() {
         <div className="col-sm-6 mb-3 mb-sm-0">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
-              <p className="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
-              </p>
+              <h5 className="card-title">Name of candidate</h5>
+              <p className="card-text">short bio - make dynamic</p>
               <a href="#" className="btn btn-primary">
-                Go somewhere
+                See full resume
               </a>
             </div>
           </div>
@@ -20,13 +17,10 @@ export function ResumesIndex() {
         <div className="col-sm-6">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
-              <p className="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
-              </p>
+              <h5 className="card-title">Name of candidate</h5>
+              <p className="card-text">short bio - make dynamic</p>
               <a href="#" className="btn btn-primary">
-                Go somewhere
+                See full resume
               </a>
             </div>
           </div>
@@ -37,13 +31,10 @@ export function ResumesIndex() {
         <div className="col-sm-6 mb-3 mb-sm-0">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
-              <p className="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
-              </p>
+              <h5 className="card-title">Name of candidate</h5>
+              <p className="card-text">short bio - make dynamic</p>
               <a href="#" className="btn btn-primary">
-                Go somewhere
+                See full resume
               </a>
             </div>
           </div>
@@ -51,13 +42,10 @@ export function ResumesIndex() {
         <div className="col-sm-6">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
-              <p className="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
-              </p>
+              <h5 className="card-title">Name of candidate</h5>
+              <p className="card-text">short bio - make dynamic</p>
               <a href="#" className="btn btn-primary">
-                Go somewhere
+                See full resume
               </a>
             </div>
           </div>
@@ -68,13 +56,10 @@ export function ResumesIndex() {
         <div className="col-sm-6 mb-3 mb-sm-0">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
-              <p className="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
-              </p>
+              <h5 className="card-title">Name of candidate</h5>
+              <p className="card-text">short bio - make dynamic</p>
               <a href="#" className="btn btn-primary">
-                Go somewhere
+                See full resume
               </a>
             </div>
           </div>
@@ -82,13 +67,10 @@ export function ResumesIndex() {
         <div className="col-sm-6">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
-              <p className="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
-              </p>
+              <h5 className="card-title">Name of candidate</h5>
+              <p className="card-text">short bio - make dynamic</p>
               <a href="#" className="btn btn-primary">
-                Go somewhere
+                See full resume
               </a>
             </div>
           </div>

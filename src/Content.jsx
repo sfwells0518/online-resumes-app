@@ -5,7 +5,6 @@ import { ResumesIndex } from "./ResumesIndex";
 export function Content() {
   return (
     <div>
-      <h1>Welcome to React!</h1>
       <ResumesIndex />
       {/* <ResumesShow /> */}
       {/* <Routes>

@@ -2,7 +2,6 @@ export function ResumesIndex() {
   return (
     <div>
       <h1>All resumes</h1>
-
       <div className="card" style="width: 18rem;">
         <div className="card-body">
           <h5 className="card-title">Card title</h5>

@@ -1,4 +1,5 @@
-export function ResumesIndex() {
+export function ResumesIndex(props) {
+  // console.log(props.???); put the variable from the API
   return (
     <div>
       <h1>All resumes</h1>

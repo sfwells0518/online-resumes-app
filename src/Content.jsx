@@ -2,16 +2,17 @@
 import { ResumesIndex } from "./ResumesIndex";
 // import { ResumesShow }  from "./ResumesShow";
 
+import { ResumesShow } from "./ResumesShow";
 export function Content() {
   return (
     <div>
       <ResumesIndex />
-      {/* <ResumesShow /> */}
-      <Routes>
+      <ResumesShow />
+      {/* <Routes>
         <Route path="/index" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/show" element={<Show />} />
-      </Routes>
+      </Routes> */}
     </div>
   );
 }

@@ -1,5 +1,7 @@
-import { Routes, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 import { ResumesIndex } from "./ResumesIndex";
+// import { ResumesShow }  from "./ResumesShow";
+
 import { ResumesShow } from "./ResumesShow";
 export function Content() {
   return (

@@ -2,7 +2,6 @@
 
 export function Header() {
  
-
   let authenticationLinks;
   if (localStorage.jwt === undefined) {
     authenticationLinks = (
@@ -28,11 +27,12 @@ export function Header() {
       </li>
     );
   }
+  
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-         ResuMe ||
+         ResuMe 
         </a>
 
         <button

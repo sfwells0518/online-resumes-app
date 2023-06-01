@@ -3,18 +3,16 @@ import { ResumesIndex } from "./ResumesIndex";
 import { ResumesShow }  from "./ResumesShow";
 import { Login } from "./Login.jsx"
 import { Signup } from "./Signup.jsx"
-import {LogoutLink} from "./LogoutLink.jsx"
 
 export function Content() {
   return (
     <div>
-      <ResumesIndex />
-      <ResumesShow />
       <Routes>
+        <Route path="/" element={<ResumesIndex />}/>
+        <Route path="/show" element={<ResumesShow />}/>
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
       </Routes>
-      <LogoutLink/>
     </div>
-  );
+  );  
 }

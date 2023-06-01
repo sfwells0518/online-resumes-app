@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import { Index } from ./"Index";
+import { Index } from "./Index";
+import { ResumesShow } from "./ResumesShow";
 
 export function Content() {
   return (

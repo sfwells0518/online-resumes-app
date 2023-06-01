@@ -7,7 +7,7 @@ export function ResumesIndex() {
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Name of candidate</h5>
-              <p className="card-text">short bio - make dynamic</p>
+              <p className="card-text">short bio</p>
               <a href="#" className="btn btn-primary">
                 See full resume
               </a>

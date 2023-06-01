@@ -7,12 +7,12 @@ import { Signup } from "./Signup.jsx"
 export function Content() {
   return (
     <div>
-      <ResumesIndex />
-      <ResumesShow />
       <Routes>
+        <Route path="/" element={<ResumesIndex />}/>
+        <Route path="/show" element={<ResumesShow />}/>
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
       </Routes>
     </div>
-  );
+  );  
 }

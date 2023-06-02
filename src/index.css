@@ -2,6 +2,13 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
 .navbar {
   top: 8px;
   background-color: rgb(255, 255, 255);
@@ -10,4 +17,154 @@ html {
   height: 80px;
   border-radius: 15px;
   margin-bottom: 10px;
+}
+
+.logout {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.logout-title {
+  font-size: 3em;
+}
+
+.logout-button {
+  background-color: #5f80e6;
+  border: none;
+  color: white;
+  padding: 15px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  background-color: aquamarine;
+  color: black;
+  text-align: center;
+}
+
+.signup {
+  position: relative;
+  max-width: 430px;
+  margin: 0 auto;
+  margin-top: 200px;
+  width: 100%;
+  background: #fff;
+  padding: 34px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.signup h1 {
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+
+form .input-box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.signup-button {
+  background-color: #5f80e6;
+  border: none;
+  color: white;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.input-box.button input {
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: #4070f4;
+  cursor: pointer;
+}
+
+.signup form {
+  margin-top: 30px;
+}
+
+.signup form .input-box {
+  height: 52px;
+  margin: 40px 0;
+}
+
+form .policy {
+  display: flex;
+  align-items: center;
+}
+
+form h3 {
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+#login {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: rgb(21, 0, 255);
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.login {
+  color: rgb(255, 255, 255)
+}
+
+form {
+  text-align: left;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+label {
+  color: rgb(255, 255, 255);
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(21, 0, 255);
+  border-radius: 3px;
+  border: none;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(21, 0, 255);
+  border-radius: 3px;
+  border: none;
 }

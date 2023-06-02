@@ -5,6 +5,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { Login } from "./Login.jsx"
 import { Signup } from "./Signup.jsx"
+import { Logout } from "./Logout.jsx"
 
 export function Content() {
   const [students, setStudents] = useState([]);
@@ -19,12 +20,12 @@ export function Content() {
   useEffect(handleIndexStudents, []);
   return (
     <div>
-  
       <Routes>
         <Route path="/" element={<ResumesIndex students={students} />} />
         <Route path="/show" element={<ResumesShow />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/logout" element={<Logout/>} />
       </Routes>
     </div>
   );  

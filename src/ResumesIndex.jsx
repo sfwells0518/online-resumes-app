@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { ResumesShow } from "./ResumesShow";
 export function ResumesIndex(props) {
   console.log(props.student);
   return (
@@ -17,8 +18,9 @@ export function ResumesIndex(props) {
                 <p>
                   <button
                     className="btn btn-primary"
+                    href="/www.google.com"
                     onClick={() => {
-                      props.onShowStudent(student.id);
+                      props.onShowStudent(student);
                     }}
                   >
                     See Resume

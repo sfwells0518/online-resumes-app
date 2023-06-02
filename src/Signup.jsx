@@ -43,6 +43,10 @@ export function Signup() {
         <div className="input-box">
           Password confirmation: <input name="password_confirmation" type="password" />
         </div>
+        <div className="policy">
+          <input type="checkbox"/>
+          <h3>I accept all terms & condition</h3>
+        </div>
         <button className="signup-button" type="submit">Signup</button>
       </form>
     </div>

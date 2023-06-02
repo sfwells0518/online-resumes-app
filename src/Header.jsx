@@ -29,8 +29,8 @@ export function Header() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/">
-         ResuMe ||
+        <a className="navbar-brand" href="/index">
+         resuMe ||
         </a>
 
         <button

@@ -112,3 +112,15 @@ form .input-box input {
   height: 52px;
   margin: 40px 0;
 }
+
+form .policy {
+  display: flex;
+  align-items: center;
+}
+
+form h3 {
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}

@@ -23,7 +23,7 @@ export function Content() {
       <Routes>
         <Route path="/" element={<ResumesIndex students={students}/>}/>
         <Route path="/show" element={<ResumesShow />}/>
-        <Route path="/signup" element={<Signup />} />
+        <Route path="/signup" element={<Signup />}/>
         <Route path="/login" element={<Login />} />
         <Route path="/logout" element={<Logout/>} />
       </Routes>

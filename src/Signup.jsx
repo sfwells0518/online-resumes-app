@@ -22,7 +22,7 @@ export function Signup() {
   };
 
   return (
-    
+
     <div className="signup">
       <h1>Registration</h1>
         <ul>
@@ -32,18 +32,18 @@ export function Signup() {
         </ul>
       <form onSubmit={handleSubmit}>
         <div className="input-box">
-          Name: <input name="name" type="text" />
+          Name: <input name="name" type="text" placeholder="Enter name here" />
         </div>
         <div className="input-box">
-          Email: <input name="email" type="email" />
+          Email: <input name="email" type="email" placeholder="Enter email here"/>
         </div>
         <div className="input-box">
-          Password: <input name="password" type="password" />
+          Password: <input name="password" type="password" placeholder="Enter password here"/>
         </div>
         <div className="input-box">
           Password confirmation: <input name="password_confirmation" type="password" />
         </div>
-        <button type="submit">Signup</button>
+        <button className="signup-button" type="submit">Signup</button>
       </form>
     </div>
   );

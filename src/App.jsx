@@ -2,6 +2,9 @@ import { Header } from "./Header";
 import { Content } from "./Content";
 import { BrowserRouter } from "react-router-dom";
 import { Footer } from "./Footer";
+import { useState } from "react";
+import axios from "axios";
+
 function App() {
   return (
     <div>

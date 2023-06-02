@@ -1,24 +1,30 @@
 /* eslint-disable react/prop-types */
-// import { ResumesShow } from "./ResumesShow";
+import { ResumesShow } from "./ResumesShow";
 
 export function ResumesIndex(props) {
   console.log(props.student);
   return (
     <div id="students-index">
-      <h1>All Resumes</h1>
+      <center>
+        <h1>All Resumes</h1>
+      </center>
       <div className="row">
         {props.students.map((student) => (
-          <div key={student.id} className="col-sm-6 mb-3 mb-sm-0">
-            <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">
-                  {student.first_name} {student.last_name}
-                </h5>
+          <div key={student.id} className="col-sm-4 mb-3">
+            <div className="card flex-card">
+              <div className="card-body d-flex flex-column">
+                <center>
+                  <h5 className="card-title">
+                    {student.first_name} {student.last_name}
+                  </h5>
+                </center>
 
-                <p className="card-text">{student.short_bio}</p>
-                <p>
+                <div className="card-bio">
+                  {student.short_bio}
+                </div>
+                <div key={student.id}>
                   <button
-                    className="btn btn-primary"
+                    className="red-resume-button"
                     href="/www.google.com"
                     onClick={() => {
                       props.onShowStudent(student);
@@ -26,7 +32,7 @@ export function ResumesIndex(props) {
                   >
                     See Resume
                   </button>
-                </p>
+                </div>
               </div>
             </div>
           </div>

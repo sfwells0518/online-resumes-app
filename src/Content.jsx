@@ -1,25 +1,23 @@
 import { Routes, Route } from "react-router-dom";
 import { ResumesIndex } from "./ResumesIndex";
-import { ResumesShow }  from "./ResumesShow";
+import { ResumesShow } from "./ResumesShow";
+import axios from "axios";
+import { useState, useEffect } from "react";
 import { Login } from "./Login.jsx"
 import { Signup } from "./Signup.jsx"
 import { Logout } from "./Logout.jsx"
-import axios from "axios"
-import { useState, useEffect } from "react"
 
 export function Content() {
   const [students, setStudents] = useState([]);
-
-  const handleResumesIndex = () => {
-    console.log("handleindex photos")
+  const handleIndexStudents = () => {
+    console.log("in handle index students");
     axios.get("http://localhost:3000/students.json").then((response) => {
-      console.log(response.data)
-      setStudents(response.data)
-    })
+      console.log(response.data.first_name);
 
-  }
-  
-  useEffect(handleResumesIndex, []);
+      setStudents(response.data);
+    });
+  };
+  useEffect(handleIndexStudents, []);
   return (
     <div>
       <Routes>
@@ -29,6 +27,7 @@ export function Content() {
         <Route path="/login" element={<Login />} />
         <Route path="/logout" element={<Logout/>} />
       </Routes>
+
     </div>
   );  
 }

@@ -1,4 +1,4 @@
-
+import {LogoutLink} from "./LogoutLink.jsx"
 
 export function Header() {
  
@@ -21,9 +21,7 @@ export function Header() {
   } else {
     authenticationLinks = (
       <li>
-        <a className="dropdown-item" href="/logout">
-          Log Out
-        </a>
+        <LogoutLink/>
       </li>
     );
   }
@@ -31,7 +29,7 @@ export function Header() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/">
+        <a className="navbar-brand" href="/index">
          ResuMe ||
         </a>
 

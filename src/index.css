@@ -11,3 +11,34 @@ html {
   border-radius: 15px;
   margin-bottom: 10px;
 }
+
+.logout {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.logout-title {
+  font-size: 3em;
+}
+
+.logout-button {
+  background-color: #5f80e6;
+  border: none;
+  color: white;
+  padding: 15px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: aquamarine;
+  color: black;
+  text-align: center;
+}

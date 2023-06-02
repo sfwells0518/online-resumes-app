@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { ResumesShow } from "./ResumesShow";
+
 export function ResumesIndex(props) {
   console.log(props.student);
   return (

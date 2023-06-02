@@ -19,16 +19,13 @@ export function Content() {
   useEffect(handleIndexStudents, []);
   return (
     <div>
-
-      <ResumesIndex students={students} />
-      <ResumesShow />
+  
       <Routes>
-        <Route path="/" element={<ResumesIndex />}/>
-        <Route path="/show" element={<ResumesShow />}/>
+        <Route path="/" element={<ResumesIndex students={students} />} />
+        <Route path="/show" element={<ResumesShow />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
       </Routes>
-
     </div>
   );  
 }
